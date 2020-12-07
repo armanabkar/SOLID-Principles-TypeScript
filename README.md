@@ -8,10 +8,10 @@
 The SOLID principles were defined quite some time ago and are still relatable. Their goal is to make our software easier to understand, read, and extend. We accredit this concept to [Robert C. Martin](https://en.wikipedia.org/wiki/Robert_C._Martin) from his paper from the year 2000. The actual SOLID acronym was defined later, though. In this article, we go through all of the SOLID principles and reflect them in TypeScript examples.
 
 - S: [Single responsibility principle](#single-responsibility-principle)
-- O: [Open-closed principle](open-closed-principle)
-- L: [Liskov substitution principle](liskov-substitution-principle)
-- I: [Interface segregation principle](interface-segregation-principle)
-- D: [Dependency inversion principle](dependency-inversion-principle)
+- O: [Open-closed principle](#open-closed-principle)
+- L: [Liskov substitution principle](#liskov-substitution-principle)
+- I: [Interface segregation principle](#interface-segregation-principle)
+- D: [Dependency inversion principle](#dependency-inversion-principle)
 
 ## Single responsibility principle
 The single responsibility principle declares that a class should only be responsible for a single functionality. The above also refers to modules and functions.
