@@ -1,12 +1,17 @@
 # SOLID Principles in TypeScript
 
+<h2 align="center">
+  <img src="https://github.com/armanabkar/SOLID-Principles-TypeScript/blob/main/SOLID.png" alt="TypeScriptSOLID" width="550px" />
+  <br>
+</h2>
+
 The SOLID principles were defined quite some time ago and are still relatable. Their goal is to make our software easier to understand, read, and extend. We accredit this concept to [Robert C. Martin](https://en.wikipedia.org/wiki/Robert_C._Martin) from his paper from the year 2000. The actual SOLID acronym was defined later, though. In this article, we go through all of the SOLID principles and reflect them in TypeScript examples.
 
-- S: Single responsibility principle
-- O: Open-closed principle
-- L: Liskov substitution principle
-- I: Interface segregation principle
-- D: Dependency inversion principle
+- S: [Single responsibility principle](#single-responsibility-principle)
+- O: [Open-closed principle](open-closed-principle)
+- L: [Liskov substitution principle](liskov-substitution-principle)
+- I: [Interface segregation principle](interface-segregation-principle)
+- D: [Dependency inversion principle](dependency-inversion-principle)
 
 ## Single responsibility principle
 The single responsibility principle declares that a class should only be responsible for a single functionality. The above also refers to modules and functions.
@@ -329,7 +334,7 @@ The benefit of the above is that we don’t need subclasses for the Engineer and
 	
     const engineer = new Person(new EngineerIntroductionService());
     const musician = new Person(new MusicianIntroductionService());
-The above approach is an example of using `composition instead of inheritance`.
+The above approach is an example of using COMPOSITION INSTEAD OF INHERITANCE.
 
 Also, this makes our classes easier to unit-test, because we can effortlessly provide a mocked service in a constructor.
 
